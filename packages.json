@@ -1,0 +1,9 @@
+{
+  "name": "georgique/world-geojson",
+  "version": "1.0",
+  "dist": {
+      "url": "https://github.com/georgique/world-geojson/archive/master.zip",
+      "type": "zip"
+  }
+}
+    
