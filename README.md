@@ -25,4 +25,4 @@ Countries which we are going to provide state boundaries for:
 * Kazakhstan
 
 ## Readiness
-There are about 545 countries and states planned to add. Currently 23 are in the repository which makes it 4% ready.
+There are about 545 countries and states planned to add. Currently 26 are in the repository which makes it 4.7% ready.
