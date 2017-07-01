@@ -20,9 +20,16 @@ Countries which we are going to provide state boundaries for:
 * Argentina
 * Brazil
 * Mexico
-* Indonesia
-* United Kingdom
 * Kazakhstan
 
+## Additional areas
+Some additional splitting into areas is also in plans. For example having Italian splitted into mainland, Sardinia and Sicily. Countries to be splitted into areas are:
+* Italy
+* Inited Kingdom
+* Indonesia
+* Malaysia
+* Japan
+* more to be added
+
 ## Readiness
-There are about 545 countries and states planned to add. Currently 71 are in the repository which makes it 13% ready.
+There are about 193 countries planned to add. Currently 75 are in the repository which makes it 38% ready for release 1. States and areas are to be added in next releases.
