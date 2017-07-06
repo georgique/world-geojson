@@ -1,7 +1,7 @@
 # Countries boundaries
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
-Detalization is good for using this data on scales up to 1:10000000.
+Detalization is good for using this data on scales up to 1:10000000 (it's the best quality in combination with free-to-use license).
 Data is created using http://geojson.io/ tool.
 
 ## Contribution
