@@ -24,6 +24,8 @@ Some additional splitting into areas is also in plans. For example having Italia
 * Indonesia
 * Malaysia
 * Japan
+* France
+* Philippines
 * more to be added
 
 ## Readiness
