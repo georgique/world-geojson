@@ -20,12 +20,16 @@ Countries which we are going to provide state boundaries for:
 ## Additional areas
 Some additional splitting into areas is also in plans. For example having Italian splitted into mainland, Sardinia and Sicily. Countries to be splitted into areas are:
 * Italy
-* Inited Kingdom
+* United Kingdom
 * Indonesia
 * Malaysia
 * Japan
 * France
 * Philippines
+* Portugal
+* USA
+* Spain
+* Netherlands
 * more to be added
 
 ## Readiness
