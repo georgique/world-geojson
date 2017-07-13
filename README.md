@@ -1,3 +1,4 @@
+
 # World boundaries in GeoJSON format
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
@@ -21,6 +22,7 @@ Countries which we are going to provide state boundaries for:
 Some additional splitting into areas is also in plans. For example having Italian splitted into mainland, Sardinia and Sicily. Countries to be splitted into areas are:
 * Italy
 * United Kingdom
+* Ecuador
 * Indonesia
 * Malaysia
 * Japan
