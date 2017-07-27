@@ -35,4 +35,4 @@ Some additional splitting into areas is also in plans. For example having Italia
 * more to be added
 
 ## Readiness
-There are about 193 countries planned to add. Currently 190 are in the repository which makes it 98% ready for release 1. States and areas are to be added in next releases.
+There are about 193 countries planned to add. Currently 191 are in the repository which makes it 99% ready for release 1. States and areas are to be added in next releases.
