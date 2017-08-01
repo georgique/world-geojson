@@ -1,11 +1,10 @@
-
 # World boundaries in GeoJSON format
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
 Detalization is good for using this data on scales up to 1:10000000 / gmaps zoom 6-7 (it's the best quality in combination with free-to-use license).
 Data is created using http://geojson.io/ tool.
 
-## States boundaries
+## States boundaries (planned)
 Countries which we are going to provide state boundaries for:
 * Russia
 * USA
@@ -18,7 +17,7 @@ Countries which we are going to provide state boundaries for:
 * Mexico
 * Kazakhstan
 
-## Additional areas
+## Additional areas (planned)
 Some additional splitting into areas is also in plans. For example having Italian splitted into mainland, Sardinia and Sicily. Countries to be splitted into areas are:
 * Italy
 * United Kingdom
@@ -32,7 +31,4 @@ Some additional splitting into areas is also in plans. For example having Italia
 * USA
 * Spain
 * Netherlands
-* more to be added
-
-## Readiness
-There are about 193 countries planned to add. Currently 192 are in the repository which makes it 99% ready for release 1. States and areas are to be added in next releases.
+... more to be added
