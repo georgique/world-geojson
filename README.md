@@ -4,6 +4,8 @@ countries (note that this repository is currently filling).
 Detalization is good for using this data on scales up to 1:10000000 / gmaps zoom 6-7 (it's the best quality in combination with free-to-use license).
 Data is created using http://geojson.io/ tool.
 
+![Quality example](http://httphobo.com/pictures/map.png)
+
 ## States boundaries (planned)
 Countries which we are going to provide state boundaries for:
 * Russia
