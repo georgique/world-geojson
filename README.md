@@ -8,13 +8,15 @@ Data is created using http://geojson.io/ tool.
 
 ## Additional areas (release 2.0 is on it's way)
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
+READINESS: 28% / 25 areas out of 87 are done.
+
 Countries to be splitted into areas are:
 * Denmark: Mainland/Greenland/Faroe Islands
 * Ecuador: Mainland/Galapagos Islands
 * France: Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Reunion/Clipperton Island/French Polynesia/French Southern and Antarctic Islands/New Caledonia/Saint Barthelemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna
 * Italy: Mainland/Sardinia/Sicily
 * Malaysia: West Malaysia/East Malaysia
-* Netherlands: Mainland/Bonaire/Saba/Sint Eustatius
+* Netherlands: Mainland/Bonaire/Saba/Sint Eustatius/Aruba/Curacao/Saint Martin
 * New Zealand: North Island/South Island/Tokelau/Niue/Cook Islands/Kermadec Islands/Chatham Islands/Three Kings Islands/Subantarctic Islands
 * Norway: Mainland/Svalbard
 * Portugal: Mainland/Azores/Madeira
