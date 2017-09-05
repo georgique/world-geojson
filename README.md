@@ -7,7 +7,8 @@ Data is created using http://geojson.io/ tool.
 ![Quality example](http://httphobo.com/pictures/map.png)
 
 ## Additional areas (release 2.0 is on it's way)
-Some additional splitting into areas is also in plans. For example having Italian splitted into mainland, Sardinia and Sicily. Countries to be splitted into areas are:
+Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
+Countries to be splitted into areas are:
 * Denmark: Mainland/Greenland/Faroe Islands
 * Ecuador: Mainland/Galapagos Islands
 * France: Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Reunion/Clipperton Island/French Polynesia/French Southern and Antarctic Islands/New Caledonia/Saint Barthelemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna
@@ -23,15 +24,15 @@ Some additional splitting into areas is also in plans. For example having Italia
 
 ## States boundaries (planned)
 Countries which we are going to provide state boundaries for:
-* Russia
-* USA
-* Canada
-* India
-* China
 * Australia
 * Argentina
 * Brazil
-* Mexico
-* Kazakhstan
+* Canada
+* China
+* India
 * Indonesia
+* Kazakhstan
+* Mexico
 * Philippines
+* Russia
+* USA
