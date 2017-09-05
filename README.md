@@ -1,4 +1,4 @@
-# World boundaries in GeoJSON format
+/Jan# World boundaries in GeoJSON format
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
 Detalization is good for using this data on scales up to 1:10000000 / gmaps zoom 6-7 (it's the best quality in combination with free-to-use license).
@@ -12,13 +12,13 @@ READINESS: 28% / 25 areas out of 87 are done.
 
 Countries to be splitted into areas are:
 * Denmark: Mainland/Greenland/Faroe Islands
-* Ecuador: Mainland/Galapagos Islands
+* Ecuador: Mainland/Galápagos Islands
 * France: Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Reunion/Clipperton Island/French Polynesia/French Southern and Antarctic Islands/New Caledonia/Saint Barthelemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna
 * Italy: Mainland/Sardinia/Sicily
 * Malaysia: West Malaysia/East Malaysia
-* Netherlands: Mainland/Bonaire/Saba/Sint Eustatius/Aruba/Curacao/Saint Martin
+* Netherlands: Mainland/Bonaire/Saba/Sint Eustatius/Aruba/Curaçao/Sin Maarten
 * New Zealand: North Island/South Island/Tokelau/Niue/Cook Islands/Kermadec Islands/Chatham Islands/Three Kings Islands/Subantarctic Islands
-* Norway: Mainland/Svalbard
+* Norway: Mainland/Svalbard/Jan Mayen
 * Portugal: Mainland/Azores/Madeira
 * Spain: Mailand/Canary Islands/Balearic Islands
 * United Kingdom: England/Scotland/Wales/Northern Ireland/Guernsey/Jersey/Gibraltar/Akrotiri and Dhekelia/Bermuda/Turks and Caicos Islands/British Virgin Islands/Anguilla/Cayman Islands/Montserrat/Pitcairn Islands/Saint Helena, Ascension and Tristan de Cunha/British Indian Ocean Territory/Falkland Islands/South Georgia and the South Sandwich Islands
