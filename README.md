@@ -1,13 +1,15 @@
+
 # World boundaries in GeoJSON format
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
 Detalization is good for using this data on scales up to 1:10000000 / gmaps zoom 6-7 (it's the best quality in combination with free-to-use license).
-Data is created using http://geojson.io/ tool.
+Data is created using [geojson.io](http://geojson.io/) tool.
 
 ![Quality example](http://httphobo.com/pictures/map.png)
 
 ## Countries (release 1.0)
 Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and managed territories. Separated mainland and all the territories mentioned are added in release 2. Countries states are to be added in release 3.
+More about countries boundaries release [here](http://www.httphobo.com/all/world-geojson-release-1-0-0/ here).
 
 ## Additional areas (release 2.0 is on it's way)
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
