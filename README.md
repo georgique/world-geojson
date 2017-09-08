@@ -9,7 +9,7 @@ Data is created using [geojson.io](http://geojson.io/) tool.
 
 ## Countries (release 1.0)
 Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and managed territories. Separated mainland and all the territories mentioned are added in release 2. Countries states are to be added in release 3.
-More about countries boundaries release [here](http://www.httphobo.com/all/world-geojson-release-1-0-0/ here).
+More about countries boundaries release [here](http://www.httphobo.com/all/world-geojson-release-1-0-0/).
 
 ## Additional areas (release 2.0 is on it's way)
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
