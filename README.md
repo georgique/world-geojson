@@ -1,4 +1,3 @@
-
 # World boundaries in GeoJSON format
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
@@ -11,9 +10,9 @@ Data is created using [geojson.io](http://geojson.io/) tool.
 Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and managed territories. Separated mainland and all the territories mentioned are added in release 2. Countries states are to be added in release 3.
 More about countries boundaries release [here](http://www.httphobo.com/all/world-geojson-release-1-0-0/).
 
-## Additional areas (release 2.0 is on it's way)
+## Additional areas (release 2.0)
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
-READINESS: 89% / 80 areas out of 89 are done.
+More about additional area boundaries release [here](http://www.httphobo.com/all/world-geojson-release-2-0-0/).
 
 Countries to be splitted into areas are:
 * Denmark (3): Mainland/Greenland/Faroe Islands
@@ -21,7 +20,7 @@ Countries to be splitted into areas are:
 * France (18): Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Réunion/Clipperton Island/French Polynesia/New Caledonia/Saint Barthélemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna/French Southern and Atlantic Lands
 * Italy (3): Mainland/Sardinia/Sicily
 * Netherlands (7): Mainland/Bonaire/Saba/Sint Eustatius/Aruba/Curaçao/Sin Maarten
-* New Zealand (9): North Island/South Island/Tokelau/Niue/Cook Islands/Kermadec Islands/Chatham Islands/Three Kings Islands/Subantarctic Islands
+* New Zealand (12): Mainland/North Island/South Island/Tokelau/Kermadec Islands/Chatham Islands/Three Kings Islands/Antipodes Islands/Auckland Islands/Bounty Islands/Campbell Island/Snares Islands
 * Norway (3): Mainland/Svalbard/Jan Mayen
 * Portugal (3): Mainland/Azores/Madeira
 * Spain (3): Mailand/Canary Islands/Balearic Islands
