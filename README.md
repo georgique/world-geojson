@@ -6,6 +6,9 @@ Data is created using http://geojson.io/ tool.
 
 ![Quality example](http://httphobo.com/pictures/map.png)
 
+## Countries (release 1.0)
+Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and managed territories. Separated mainland and all the territories mentioned are added in release 2. Countries states are to be added in release 3.
+
 ## Additional areas (release 2.0 is on it's way)
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
 READINESS: 89% / 80 areas out of 89 are done.
