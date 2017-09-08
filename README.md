@@ -8,7 +8,7 @@ Data is created using http://geojson.io/ tool.
 
 ## Additional areas (release 2.0 is on it's way)
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
-READINESS: 68% / 63 areas out of 92 are done.
+READINESS: 89% / 80 areas out of 89 are done.
 
 Countries to be splitted into areas are:
 * Denmark (3): Mainland/Greenland/Faroe Islands
