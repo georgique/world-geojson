@@ -27,17 +27,17 @@ Countries to be splitted into areas are:
 * United Kingdom (21): United Kingdom/England/Scotland/Wales/Northern Ireland/Isle of Man/Guernsey/Jersey/Gibraltar/Akrotiri and Dhekelia/Bermuda/Turks and Caicos Islands/British Virgin Islands/Anguilla/Cayman Islands/Montserrat/Pitcairn Islands/Saint Helena, Ascension and Tristan de Cunha/British Indian Ocean Territory/Falkland Islands/South Georgia and the South Sandwich Islands
 * USA (17): Mainland (to be splitted to states)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
 
-## States boundaries (planned)
+## States boundaries (in progress)
 Countries which we are going to provide state boundaries for:
-* Australia
-* Argentina
-* Brazil
-* Canada
-* China
-* India
-* Indonesia
-* Kazakhstan
-* Mexico
-* Philippines
-* Russia
-* USA
+* Australia (in progress: 1/8)
+* Argentina (pending: 24)
+* Brazil (pending: 26)
+* Canada (pending: 13)
+* China (pending: 33)
+* India (pending: 29)
+* Indonesia (pending: 34)
+* Kazakhstan (pending: 14)
+* Mexico (pending: 31)
+* Philippines (pending: 18)
+* Russia (pending: 83)
+* USA (pending: 51)
