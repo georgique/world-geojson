@@ -29,7 +29,7 @@ Countries to be splitted into areas are:
 
 ## States boundaries (in progress)
 Countries which we are going to provide state boundaries for:
-* Australia (in progress: 5/8)
+* Australia (ready)
 * Argentina (pending: 24)
 * Brazil (pending: 26)
 * Canada (pending: 13)
@@ -40,4 +40,4 @@ Countries which we are going to provide state boundaries for:
 * Mexico (pending: 31)
 * Philippines (pending: 18)
 * Russia (pending: 83)
-* USA (pending: 51)
+* USA (ready)
