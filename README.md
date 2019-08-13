@@ -2,7 +2,6 @@
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
 Detalization is good for using this data on scales up to 1:10000000 / gmaps zoom 6-7 (it's the best quality in combination with free-to-use license).
-Data is created using [geojson.io](http://geojson.io/) tool.
 
 ![Quality example](http://httphobo.com/pictures/map.png)
 
@@ -14,7 +13,7 @@ More about countries boundaries release [here](http://www.httphobo.com/all/world
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
 More about additional area boundaries release [here](http://www.httphobo.com/all/world-geojson-release-2-0-0/).
 
-Countries to be splitted into areas are:
+Countries split into areas are:
 * Denmark (3): Mainland/Greenland/Faroe Islands
 * Ecuador (2): Mainland/Galápagos Islands
 * France (18): Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Réunion/Clipperton Island/French Polynesia/New Caledonia/Saint Barthélemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna/French Southern and Atlantic Lands
@@ -32,7 +31,7 @@ Countries which we are going to provide state boundaries for:
 * Australia (ready)
 * Argentina (pending: 24)
 * Brazil (pending: 26)
-* Canada (pending: 13)
+* Canada (ready, OSM data)
 * China (pending: 33)
 * India (pending: 29)
 * Indonesia (pending: 34)
@@ -40,4 +39,14 @@ Countries which we are going to provide state boundaries for:
 * Mexico (pending: 31)
 * Philippines (pending: 18)
 * Russia (pending: 83)
-* USA (ready)
+* USA (ready, OSM data)
+Note that some states boundaries are provided by OSM, however quality of that data is much lower.
+
+## Roadmap
+Future planned changes and improvements are:
+* Most of the countries boundaries were prepared manually, so borders don't perfectly align - that is to be improved
+* Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
+
+## Tools and services used
+[geojson.io](http://geojson.io/)
+[OpenStreetMap](https://www.openstreetmap.org)
