@@ -48,5 +48,7 @@ Future planned changes and improvements are:
 * Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
 
 ## Tools and services used
-[geojson.io](http://geojson.io/)
-[OpenStreetMap](https://www.openstreetmap.org)
+* [geojson.io](http://geojson.io/)
+* [OpenStreetMap](https://www.openstreetmap.org)
+
+Sponsored by [Mapkeen](https://mapkeen.com(
