@@ -51,4 +51,4 @@ Future planned changes and improvements are:
 * [geojson.io](http://geojson.io/)
 * [OpenStreetMap](https://www.openstreetmap.org)
 
-Sponsored by [Mapkeen](https://mapkeen.com(
+Sponsored by [Mapkeen](https://mapkeen.com)
