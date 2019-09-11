@@ -40,6 +40,7 @@ Countries which we are going to provide state boundaries for:
 * Philippines (pending: 18)
 * Russia (pending: 83)
 * USA (ready, OSM data)
+
 Note that some states boundaries are provided by OSM, however quality of that data is much lower.
 
 ## Roadmap
