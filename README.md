@@ -52,4 +52,7 @@ Future planned changes and improvements are:
 * [geojson.io](http://geojson.io/)
 * [OpenStreetMap](https://www.openstreetmap.org)
 
+## Gratitude
+If you need some data from the roadmap sooner, or just want to support and thank me, you can do it here: https://github.com/sponsors/georgique
+
 Sponsored by [Mapkeen](https://mapkeen.com)
