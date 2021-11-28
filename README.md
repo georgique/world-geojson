@@ -45,7 +45,7 @@ Note that some states boundaries are provided by OSM, however quality of that da
 
 ## Roadmap
 Future planned changes and improvements are:
-* Most of the countries boundaries were prepared manually, so borders don't perfectly align - that is to be improved
+* Most of the countries boundaries were prepared manually, so borders don't perfectly align - that is to be improved (work started)
 * Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
 
 ## Tools and services used
