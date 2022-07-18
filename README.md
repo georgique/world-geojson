@@ -4,7 +4,7 @@ countries (note that this repository is currently filling).
 Detalization is good for using this data on scales up to 1:10000000 / gmaps zoom 6-7 (it's the best quality in combination with free-to-use license).
 Data is created using [geojson.io](http://geojson.io/) tool.
 
-![Quality example](http://httphobo.com/pictures/map.png)
+![Quality example](https://user-images.githubusercontent.com/15987211/179500121-a3dd509b-dc05-43b4-8f2c-40d42b4741da.png)
 
 ## Countries (release 1.0)
 Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and managed territories. Separated mainland and all the territories mentioned are added in release 2. Countries states are to be added in release 3.
