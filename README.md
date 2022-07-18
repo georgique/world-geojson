@@ -2,8 +2,9 @@
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).
 Detalization is good for using this data on scales up to 1:10000000 / gmaps zoom 6-7 (it's the best quality in combination with free-to-use license).
+Data is created using [geojson.io](http://geojson.io/) tool.
 
-![Quality example](http://httphobo.com/pictures/map.png)
+![Quality example](https://user-images.githubusercontent.com/15987211/179500121-a3dd509b-dc05-43b4-8f2c-40d42b4741da.png)
 
 ## Countries (release 1.0)
 Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and managed territories. Separated mainland and all the territories mentioned are added in release 2. Countries states are to be added in release 3.
@@ -24,14 +25,14 @@ Countries split into areas are:
 * Portugal (3): Mainland/Azores/Madeira
 * Spain (3): Mailand/Canary Islands/Balearic Islands
 * United Kingdom (21): United Kingdom/England/Scotland/Wales/Northern Ireland/Isle of Man/Guernsey/Jersey/Gibraltar/Akrotiri and Dhekelia/Bermuda/Turks and Caicos Islands/British Virgin Islands/Anguilla/Cayman Islands/Montserrat/Pitcairn Islands/Saint Helena, Ascension and Tristan de Cunha/British Indian Ocean Territory/Falkland Islands/South Georgia and the South Sandwich Islands
-* USA (17): Mainland (to be splitted to states)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
+* USA (17): Mainland (to be split to states in v3)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
 
 ## States boundaries (in progress)
 Countries which we are going to provide state boundaries for:
 * Australia (ready)
 * Argentina (pending: 24)
 * Brazil (pending: 26)
-* Canada (ready, OSM data)
+* Canada (ready / OSM / low quality)
 * China (pending: 33)
 * India (pending: 29)
 * Indonesia (pending: 34)
@@ -52,4 +53,3 @@ Future planned changes and improvements are:
 * [geojson.io](http://geojson.io/)
 * [OpenStreetMap](https://www.openstreetmap.org)
 
-Sponsored by [Mapkeen](https://mapkeen.com)
