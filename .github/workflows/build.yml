@@ -1,0 +1,48 @@
+name: Build
+
+on:
+  push:
+    tags:
+      - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout code
+      - uses: actions/checkout@v2
+
+      - name: Set tag
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          registry-url: 'https://npm.pkg.github.com'
+
+      - name: Prepare authentication and NPM
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          npm install
+
+      - name: Publish NPM package on GitHub
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          npm publish
+
+      - uses: montudor/action-zip@v0.1.0
+        if: (!startsWith(github.ref, 'refs/heads/release') && !startsWith(github.ref, 'refs/heads/hotfix'))
+        with:
+          args: zip -qq -r /tmp/dist.zip .
+
+      - uses: marvinpinto/action-automatic-releases@v1.2.1
+        if: (success() && (!startsWith(github.ref, 'refs/heads/release') && !startsWith(github.ref, 'refs/heads/hotfix')))
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: ${{ env.RELEASE_VERSION }}
+          prerelease: false
+          title: Release ${{ env.RELEASE_VERSION }}
+          files: /tmp/dist.zip

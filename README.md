@@ -14,7 +14,7 @@ More about countries boundaries release [here](http://www.httphobo.com/all/world
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into geographical areas.
 More about additional area boundaries release [here](http://www.httphobo.com/all/world-geojson-release-2-0-0/).
 
-Countries to be splitted into areas are:
+Countries split into areas are:
 * Denmark (3): Mainland/Greenland/Faroe Islands
 * Ecuador (2): Mainland/Galápagos Islands
 * France (18): Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Réunion/Clipperton Island/French Polynesia/New Caledonia/Saint Barthélemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna/French Southern and Atlantic Lands
@@ -25,14 +25,14 @@ Countries to be splitted into areas are:
 * Portugal (3): Mainland/Azores/Madeira
 * Spain (3): Mailand/Canary Islands/Balearic Islands
 * United Kingdom (21): United Kingdom/England/Scotland/Wales/Northern Ireland/Isle of Man/Guernsey/Jersey/Gibraltar/Akrotiri and Dhekelia/Bermuda/Turks and Caicos Islands/British Virgin Islands/Anguilla/Cayman Islands/Montserrat/Pitcairn Islands/Saint Helena, Ascension and Tristan de Cunha/British Indian Ocean Territory/Falkland Islands/South Georgia and the South Sandwich Islands
-* USA (17): Mainland (to be splitted to states)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
+* USA (17): Mainland (to be split to states in v3)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
 
 ## States boundaries (in progress)
 Countries which we are going to provide state boundaries for:
 * Australia (ready)
 * Argentina (pending: 24)
 * Brazil (pending: 26)
-* Canada (pending: 13)
+* Canada (ready / OSM / low quality)
 * China (pending: 33)
 * India (pending: 29)
 * Indonesia (pending: 34)
