@@ -40,4 +40,16 @@ Countries which we are going to provide state boundaries for:
 * Mexico (pending: 31)
 * Philippines (pending: 18)
 * Russia (pending: 83)
-* USA (ready)
+* USA (ready, OSM data)
+
+Note that some states boundaries are provided by OSM, however quality of that data is much lower.
+
+## Roadmap
+Future planned changes and improvements are:
+* Most of the countries boundaries were prepared manually, so borders don't perfectly align - that is to be improved (work started)
+* Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
+
+## Tools and services used
+* [geojson.io](http://geojson.io/)
+* [OpenStreetMap](https://www.openstreetmap.org)
+
