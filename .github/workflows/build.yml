@@ -3,15 +3,14 @@ name: Build
 on:
   push:
     tags:
-      - 'main'
+      - '*'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout code
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set tag
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
