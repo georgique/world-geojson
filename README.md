@@ -17,6 +17,7 @@ Besides bigger countries which are to be splitted into states, some smaller are 
 More about additional area boundaries release [here](http://www.httphobo.com/all/world-geojson-release-2-0-0/).
 
 Countries split into areas are:
+* Azerbaijan (2): Mainland/Nakhchivan
 * Denmark (3): Mainland/Greenland/Faroe Islands
 * Ecuador (2): Mainland/Galápagos Islands
 * France (18): Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Réunion/Clipperton Island/French Polynesia/New Caledonia/Saint Barthélemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna/French Southern and Atlantic Lands
@@ -50,6 +51,34 @@ Note that some states boundaries are provided by OSM, however quality of that da
 Future planned changes and improvements are:
 * Most of the countries boundaries were prepared manually, so borders don't perfectly align - that is to be improved (work started)
 * Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
+
+## Install
+
+This library can be installed manually or via Composer or NPM (both using GitHub Registry).
+
+Via Composer:
+```json
+  "require": {
+    "georgique/world-geojson": "^2.3.2"
+  },
+  "repositories": [
+    {
+      "type": "github",
+      "url": "git@github.com:georgique/world-geojson.git"
+    }
+  ]
+```
+
+Via NPM:
+```json
+  "dependencies": {
+    "@georgique/world-geojson": "^2.3.2",
+  }
+```
+and create .npmrc file in the root of your project with the following content:
+```
+@georgique:registry=https://npm.pkg.github.com
+```
 
 ## Tools and services used
 * [geojson.io](http://geojson.io/)
