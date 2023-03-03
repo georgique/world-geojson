@@ -1,3 +1,5 @@
+[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://supportukrainenow.org/)
+
 # World boundaries in GeoJSON format
 This repository contains GeoJSON data for all the countries boundaries including boundaries for states of bigger 
 countries (note that this repository is currently filling).

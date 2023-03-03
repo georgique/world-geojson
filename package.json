@@ -1,8 +1,8 @@
 {
   "name": "@georgique/world-geojson",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "repository": "git://github.com/georgique/world-geojson.git",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "files": [
     "areas",
     "countries",
@@ -11,9 +11,16 @@
     "README.md",
     "LICENSE"
   ],
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "~1.5.3",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-shell": "~4.0.0"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "release": "grunt release"
   }
 }
