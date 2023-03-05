@@ -1,5 +1,6 @@
 {
   "name": "@georgique/world-geojson",
+  "description": "GeoJson for all the countries, areas (regions) and some states.",
   "license": "GPL-3.0-or-later",
   "repository": "git://github.com/georgique/world-geojson.git",
   "version": "2.3.2",
@@ -8,6 +9,7 @@
     "countries",
     "states",
     "CHANGELOG.md",
+    "CONTRIBUTING.md",
     "README.md",
     "LICENSE"
   ],

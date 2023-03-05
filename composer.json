@@ -1,3 +1,9 @@
 {
-    "name": "georgique/world-geojson"
+    "name": "georgique/world-geojson",
+    "description": "GeoJson for all the countries, areas (regions) and some states.",
+    "keywords": [
+        "geojson",
+        "borders"
+    ],
+    "license": "GPL-3.0-or-later"
 }
