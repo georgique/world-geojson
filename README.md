@@ -54,19 +54,13 @@ Future planned changes and improvements are:
 
 ## Install
 
-This library can be installed manually or via Composer or NPM (both using GitHub Registry).
+This library can be installed manually or via Composer or NPM (via GitHub Packages).
 
 Via Composer:
 ```json
   "require": {
     "georgique/world-geojson": "^2.3.2"
-  },
-  "repositories": [
-    {
-      "type": "github",
-      "url": "git@github.com:georgique/world-geojson.git"
-    }
-  ]
+  }
 ```
 
 Via NPM:
@@ -80,7 +74,9 @@ and create .npmrc file in the root of your project with the following content:
 @georgique:registry=https://npm.pkg.github.com
 ```
 
-## Tools and services used
-* [geojson.io](http://geojson.io/)
+## Reference
+* [GitHub Repository](https://github.com/georgique/world-geojson)
+* [Composer package](https://packagist.org/packages/georgique/world-geojson)
+* [Tool for editing GeoJSON - geojson.io](http://geojson.io/)
 * [OpenStreetMap](https://www.openstreetmap.org)
 
