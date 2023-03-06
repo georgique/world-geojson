@@ -32,11 +32,10 @@ Countries split into areas are:
 
 ## Aligned borders (release 3.0 - work in progress)
 
-Most of the countries boundaries were prepared manually, so borders don't perfectly align. Here is the list of countries
-which borders have already got perfectly aligned with the surrondings:
-* Countries (3.1% done):
-  * Afghanistan
-  * Albania
+Most of the countries boundaries were prepared manually, so borders don't perfectly align. 
+Here is the progress:
+* Countries (4.2% done)
+* States (0% done)
 
 ## States boundaries (release 4.0 - on pause)
 Countries which we are going to provide state boundaries for:
