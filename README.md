@@ -30,7 +30,15 @@ Countries split into areas are:
 * United Kingdom (21): United Kingdom/England/Scotland/Wales/Northern Ireland/Isle of Man/Guernsey/Jersey/Gibraltar/Akrotiri and Dhekelia/Bermuda/Turks and Caicos Islands/British Virgin Islands/Anguilla/Cayman Islands/Montserrat/Pitcairn Islands/Saint Helena, Ascension and Tristan de Cunha/British Indian Ocean Territory/Falkland Islands/South Georgia and the South Sandwich Islands
 * USA (17): Mainland (to be split to states in v3)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
 
-## States boundaries (in progress)
+## Aligned borders (release 3.0 - work in progress)
+
+Most of the countries boundaries were prepared manually, so borders don't perfectly align. Here is the list of countries
+which borders have already got perfectly aligned with the surrondings:
+* Countries (3.1% done):
+  * Afghanistan
+  * Albania
+
+## States boundaries (release 4.0 - on pause)
 Countries which we are going to provide state boundaries for:
 * Australia (ready)
 * Argentina (pending: 24)
@@ -45,18 +53,8 @@ Countries which we are going to provide state boundaries for:
 * Russia (pending: 83)
 * USA (ready, OSM data)
 
-Note that some states boundaries are provided by OSM, however quality of that data is much lower.
-
-## Aligned borders (in progress)
-
-Most of the countries boundaries were prepared manually, so borders don't perfectly align. Here is the list of countries
-which borders have already got perfectly aligned with the surrondings:
-* Afghanistan
-* Albania
-
-## Roadmap
-Future planned changes and improvements are:
-* Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
+Note that some states boundaries are provided by OSM, however quality of that data is much lower. It's planned
+to replace them with handmade ones eventually.
 
 ## Install
 
