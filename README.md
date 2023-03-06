@@ -37,6 +37,11 @@ which borders have already got perfectly aligned with the surrondings:
 * Countries (3.1% done):
   * Afghanistan
   * Albania
+  
+Was / Is:
+
+<img width="35%" src="https://user-images.githubusercontent.com/15987211/223083854-86f8ffef-6cf9-4964-a8b5-a55f389fc102.png" /><img width="40%" src="https://user-images.githubusercontent.com/15987211/223084469-1fbb1fc2-4cf5-4064-a251-a65a4eea7401.png" />
+
 
 ## States boundaries (release 4.0 - on pause)
 Countries which we are going to provide state boundaries for:
