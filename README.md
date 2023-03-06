@@ -47,9 +47,15 @@ Countries which we are going to provide state boundaries for:
 
 Note that some states boundaries are provided by OSM, however quality of that data is much lower.
 
+## Aligned borders (in progress)
+
+Most of the countries boundaries were prepared manually, so borders don't perfectly align. Here is the list of countries
+which borders have already got perfectly aligned with the surrondings:
+* Afghanistan
+* Albania
+
 ## Roadmap
 Future planned changes and improvements are:
-* Most of the countries boundaries were prepared manually, so borders don't perfectly align - that is to be improved (work started)
 * Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
 
 ## Install
