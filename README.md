@@ -34,7 +34,7 @@ Countries split into areas are:
 
 Most of the countries boundaries were prepared manually, so borders don't perfectly align. 
 Here is the progress:
-* Countries (4.2% done)
+* Countries (4.7% done)
 * States (0% done)
 
 ## States boundaries (release 4.0 - on pause)
