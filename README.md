@@ -82,9 +82,19 @@ and create .npmrc file in the root of your project with the following content:
 @georgique:registry=https://npm.pkg.github.com
 ```
 
+## Help wanted
+* Providing geojson for any regions - not necessarily from the roadmap above, any country's regions can be included
+* Integration with any package managers other than NPM and Packagist
+
 ## Reference
 * [GitHub Repository](https://github.com/georgique/world-geojson)
 * [Composer package](https://packagist.org/packages/georgique/world-geojson)
 * [Tool for editing GeoJSON - geojson.io](http://geojson.io/)
 * [OpenStreetMap](https://www.openstreetmap.org)
+
+---
+This library is my personal mini-project which I enjoy doing and I am happy if that is useful for anyone else. If you
+want to thank me, feel free to buy me a cup of coffee throug GitHub Sponsor program.
+
+
 
