@@ -1,7 +1,5 @@
 .idea
-package-lock.json
-
 composer.phar
-
 dist
 node_modules
+vendor
