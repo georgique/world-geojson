@@ -30,17 +30,21 @@ Countries split into areas are:
 * United Kingdom (21): United Kingdom/England/Scotland/Wales/Northern Ireland/Isle of Man/Guernsey/Jersey/Gibraltar/Akrotiri and Dhekelia/Bermuda/Turks and Caicos Islands/British Virgin Islands/Anguilla/Cayman Islands/Montserrat/Pitcairn Islands/Saint Helena, Ascension and Tristan de Cunha/British Indian Ocean Territory/Falkland Islands/South Georgia and the South Sandwich Islands
 * USA (17): Mainland (to be split to states in v3)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
 
-## Aligned borders (release 3.0 - work in progress)
+## Aligned borders for all the countries (release 3.0)
 
-Most of the countries boundaries were prepared manually, so borders don't perfectly align. 
-Here is the progress:
-* Countries (99.3% done)
-* States (0% done)
+Glued borders between all countries so they perfectly align.
 
 Was / Is:
 
 <img width="35%" src="https://user-images.githubusercontent.com/15987211/223083854-86f8ffef-6cf9-4964-a8b5-a55f389fc102.png" /><img width="40%" src="https://user-images.githubusercontent.com/15987211/223084469-1fbb1fc2-4cf5-4064-a251-a65a4eea7401.png" />
 
+## Aligned borders and better state borders for AU, CA and USA (release 3.1 - planned)
+
+* Glued borders for AU states (0%)
+* Better USA state borders
+* Glued borders for USA states (0%)
+* Better Canadian province borders (0%)
+* Glued borders for Canadian provinces (0%)
 
 ## States boundaries (release 4.0 - on pause)
 Countries which we are going to provide state boundaries for:
