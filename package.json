@@ -1,13 +1,15 @@
 {
-  "name": "@georgique/world-geojson",
+  "name": "world-geojson",
+  "description": "GeoJson for all the countries, areas (regions) and some states.",
   "license": "GPL-3.0-or-later",
   "repository": "git://github.com/georgique/world-geojson.git",
-  "version": "2.3.2",
+  "version": "3.0.0",
   "files": [
     "areas",
     "countries",
     "states",
     "CHANGELOG.md",
+    "CONTRIBUTING.md",
     "README.md",
     "LICENSE"
   ],
@@ -17,7 +19,7 @@
     "grunt-shell": "~4.0.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "build": "grunt build",

@@ -17,6 +17,7 @@ Besides bigger countries which are to be splitted into states, some smaller are 
 More about additional area boundaries release [here](http://www.httphobo.com/all/world-geojson-release-2-0-0/).
 
 Countries split into areas are:
+* Azerbaijan (2): Mainland/Nakhchivan
 * Denmark (3): Mainland/Greenland/Faroe Islands
 * Ecuador (2): Mainland/Galápagos Islands
 * France (18): Mainland/Corsica/French Guiana/Guadeloupe/Martinique/Mayotte/Réunion/Clipperton Island/French Polynesia/New Caledonia/Saint Barthélemy/Saint Martin/Saint Pierre and Miquelon/Wallis and Futuna/French Southern and Atlantic Lands
@@ -29,7 +30,23 @@ Countries split into areas are:
 * United Kingdom (21): United Kingdom/England/Scotland/Wales/Northern Ireland/Isle of Man/Guernsey/Jersey/Gibraltar/Akrotiri and Dhekelia/Bermuda/Turks and Caicos Islands/British Virgin Islands/Anguilla/Cayman Islands/Montserrat/Pitcairn Islands/Saint Helena, Ascension and Tristan de Cunha/British Indian Ocean Territory/Falkland Islands/South Georgia and the South Sandwich Islands
 * USA (17): Mainland (to be split to states in v3)/Palmyra Atoll/Guam/Northern Mariana Islands/Puerto Rico/United States Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
 
-## States boundaries (in progress)
+## Aligned borders for all the countries (release 3.0)
+
+Glued borders between all countries so they perfectly align.
+
+Was / Is:
+
+<img width="35%" src="https://user-images.githubusercontent.com/15987211/223083854-86f8ffef-6cf9-4964-a8b5-a55f389fc102.png" /><img width="40%" src="https://user-images.githubusercontent.com/15987211/223084469-1fbb1fc2-4cf5-4064-a251-a65a4eea7401.png" />
+
+## Aligned borders and better state borders for AU, CA and USA (release 3.1 - planned)
+
+* Glued borders for AU states (0%)
+* Better USA state borders
+* Glued borders for USA states (0%)
+* Better Canadian province borders (0%)
+* Glued borders for Canadian provinces (0%)
+
+## States boundaries (release 4.0 - on pause)
 Countries which we are going to provide state boundaries for:
 * Australia (ready)
 * Argentina (pending: 24)
@@ -44,14 +61,40 @@ Countries which we are going to provide state boundaries for:
 * Russia (pending: 83)
 * USA (ready, OSM data)
 
-Note that some states boundaries are provided by OSM, however quality of that data is much lower.
+Note that some states boundaries are provided by OSM, however quality of that data is much lower. It's planned
+to replace them with handmade ones eventually.
 
-## Roadmap
-Future planned changes and improvements are:
-* Most of the countries boundaries were prepared manually, so borders don't perfectly align - that is to be improved (work started)
-* Replace states boundaries provided by OSM with manually-done boundaries with much better quality.
+## Install
 
-## Tools and services used
-* [geojson.io](http://geojson.io/)
+This library can be installed manually or via Composer or NPM (via GitHub Packages).
+
+Via Composer:
+```json
+  "require": {
+    "georgique/world-geojson": "^2.3.2"
+  }
+```
+
+Via NPM:
+```json
+  "dependencies": {
+    "world-geojson": "^2.3.2",
+  }
+```
+
+## Help wanted
+* Providing geojson for any regions - not necessarily from the roadmap above, any country's regions can be included
+* Integration with any package managers other than NPM and Packagist
+
+## Reference
+* [GitHub Repository](https://github.com/georgique/world-geojson)
+* [Composer package](https://packagist.org/packages/georgique/world-geojson)
+* [Tool for editing GeoJSON - geojson.io](http://geojson.io/)
 * [OpenStreetMap](https://www.openstreetmap.org)
+
+---
+This library is my personal mini-project which I enjoy doing and I am happy if that is useful for anyone else. If you
+want to thank me, feel free to buy me a cup of coffee throug GitHub Sponsor program.
+
+
 
