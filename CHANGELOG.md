@@ -13,10 +13,17 @@
 * New: Canada provinces and territories boundaries (OSM / low quality)
 
 ## 2.3.1
+
 * Fix: added missing Greek islands of Pitta and Kastellorizo
 * Fix: fixed country file names for Mauritius, North Macedonia and Saint Vincent and the Grenadines;
 * Fix: Bouvet Island moved out of Svalbard;
 * Fix: normalized countries coordinates (from -180 to 180);
 
 ## v2.3.2
+
 * New: adding integration with NPM (GitHub NPM registry for now)
+
+## v3.0.0
+
+* New: adding integration with NPM
+* Update: aligned borders for all the countries and improved quality for some of them
