@@ -1,4 +1,4 @@
-name: Build
+name: Release
 
 on:
   push:
@@ -18,19 +18,24 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: 'https://registry.npmjs.org'
 
-      - name: Prepare authentication and NPM
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: |
-          npm install
+      - name: Install NPM dependencies
+        run: npm install
 
-      - name: Publish NPM package on GitHub
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - name: Build
+        run: npm build
+
+      - name: Prep .npmrc for publishing
         run: |
-          npm publish
+          echo "//registry.npmjs.org/:_authToken=${NPM_ACCESS_TOKEN}" >> ~/.npmrc
+          echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
+          echo "always-auth=true" >> ~/.npmrc
+
+      - name: Publish NPM package
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
+        run: npm publish
 
       - uses: montudor/action-zip@v0.1.0
         if: (!startsWith(github.ref, 'refs/heads/release') && !startsWith(github.ref, 'refs/heads/hotfix'))

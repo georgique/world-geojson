@@ -78,12 +78,8 @@ Via Composer:
 Via NPM:
 ```json
   "dependencies": {
-    "@georgique/world-geojson": "^2.3.2",
+    "world-geojson": "^2.3.2",
   }
-```
-and create .npmrc file in the root of your project with the following content:
-```
-@georgique:registry=https://npm.pkg.github.com
 ```
 
 ## Help wanted
