@@ -71,14 +71,14 @@ This library can be installed manually or via Composer or NPM (via GitHub Packag
 Via Composer:
 ```json
   "require": {
-    "georgique/world-geojson": "^2.3.2"
+    "georgique/world-geojson": "^3.0"
   }
 ```
 
 Via NPM:
 ```json
   "dependencies": {
-    "world-geojson": "^2.3.2",
+    "world-geojson": "^3.0",
   }
 ```
 
