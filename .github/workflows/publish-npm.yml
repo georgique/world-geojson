@@ -1,4 +1,4 @@
-name: Release on GitHub
+name: Publish NPM package
 
 on:
   push:
@@ -40,16 +40,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      - uses: montudor/action-zip@v0.1.0
-        if: (!startsWith(github.ref, 'refs/heads/release') && !startsWith(github.ref, 'refs/heads/hotfix'))
-        with:
-          args: zip -qq -r /tmp/dist.zip .
+      - name: Prep .npmrc for publishing
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_ACCESS_TOKEN }}" >> ~/.npmrc
+          echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
+          echo "always-auth=true" >> ~/.npmrc
 
-      - uses: marvinpinto/action-automatic-releases@v1.2.1
-        if: (success() && (!startsWith(github.ref, 'refs/heads/release') && !startsWith(github.ref, 'refs/heads/hotfix')))
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          automatic_release_tag: ${{ env.RELEASE_VERSION }}
-          prerelease: false
-          title: Release ${{ env.RELEASE_VERSION }}
-          files: /tmp/dist.zip
+      - name: Publish NPM package
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
+        run: |
+          npm pkg set version="${{ env.RELEASE_VERSION }}"
+          npm publish
