@@ -27,3 +27,7 @@
 
 * New: adding integration with NPM
 * Update: aligned borders for all the countries and improved quality for some of them
+
+## v3.0.1
+
+* Update: split GitHub release publication from NPM publishing
