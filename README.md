@@ -10,6 +10,29 @@ Data is created using [geojson.io](http://geojson.io/) tool.
 
 ![Quality example](https://user-images.githubusercontent.com/15987211/179500121-a3dd509b-dc05-43b4-8f2c-40d42b4741da.png)
 
+## Getting started
+
+You can either download it or install in your project either via Composer or NPM:
+
+Via Composer:
+
+```json
+"require": {
+  "georgique/world-geojson": "^3.0"
+}
+```
+
+Via NPM:
+
+```json
+"dependencies": {
+  "world-geojson": "^3.0",
+}
+```
+
+Help with integrating it with any other Package Manager is welcome.
+
+
 ## Countries (release 1.0)
 
 Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and
@@ -83,26 +106,6 @@ Countries which we are going to provide state boundaries for:
 
 Note that some states boundaries are provided by OSM, however quality of that data is much lower. It's planned
 to replace them with handmade ones eventually.
-
-## Install
-
-This library can be installed manually or via Composer or NPM (via GitHub Packages).
-
-Via Composer:
-
-```json
-"require": {
-  "georgique/world-geojson": "^3.0"
-}
-```
-
-Via NPM:
-
-```json
-"dependencies": {
-  "world-geojson": "^3.0",
-}
-```
 
 ## Help wanted
 
