@@ -4,7 +4,9 @@
   "license": "GPL-3.0-or-later",
   "repository": "git://github.com/georgique/world-geojson.git",
   "version": "3.0.1",
+  "main": "index.js",
   "files": [
+    "index.js",
     "areas",
     "countries",
     "states",
