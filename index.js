@@ -1,8 +1,8 @@
 function formatName(countryName) {
   return countryName
-    .replaceAll(" ", "_")
-    .replaceAll(".", "")
-    .replaceAll("&", "and")
+    .replace(/ /g, "_")
+    .replace(/\./g, "")
+    .replace(/&/g, "and")
     .toLowerCase()
 }
 
