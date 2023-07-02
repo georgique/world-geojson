@@ -1,5 +1,5 @@
-function formatName(countryName) {
-  return countryName
+function formatName(name) {
+  return name
     .replace(/ /g, '_')
     .replace(/\./g, '')
     .replace(/&/g, 'and')
