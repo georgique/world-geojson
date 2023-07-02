@@ -32,5 +32,4 @@ module.exports = {
   forCountry,
   forState,
   forArea,
-  forTerritory: forArea
 }
