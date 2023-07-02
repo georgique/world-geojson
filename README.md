@@ -94,14 +94,13 @@ Was / Is:
 
 Also, NPM this package can now be installed via [NPM](https://www.npmjs.com/package/world-geojson)
 
-## Aligned borders and better state borders for AU, CA and USA (release 3.1 - work in progress)
+## Aligned borders and better state borders for AU, CA and USA (release 3.2)
 
-* Glued borders for AU states (100%)
+* Glued borders for AU states (100% - published in 3.1)
 * Better Canadian province borders (0%)
 * Glued borders for Canadian provinces (0%)
 * Better USA state borders
 * Glued borders for USA states (0%)
-
 
 ## States boundaries (release 4.0)
 

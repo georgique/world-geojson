@@ -3,7 +3,7 @@
   "description": "GeoJson for all the countries, areas (regions) and some states.",
   "license": "GPL-3.0-or-later",
   "repository": "git://github.com/georgique/world-geojson.git",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "main": "index.js",
   "files": [
     "index.js",
