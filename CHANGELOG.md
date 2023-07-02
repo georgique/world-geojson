@@ -31,3 +31,9 @@
 ## v3.0.1
 
 * Update: split GitHub release publication from NPM publishing
+
+## v3.1.0
+
+* BREAKING: Canadian state files changed from .geojson to .json to match the repo (thanks to [@NRJBailey](https://github.com/NJRBailey))
+* Update: added NodeJS helpers (thanks to [@NRJBailey](https://github.com/NJRBailey))
+* Update: aligned borders for AU states
