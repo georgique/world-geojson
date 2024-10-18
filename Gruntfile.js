@@ -1,4 +1,6 @@
+// @ts-ignore
 module.exports = (grunt) => {
+
     grunt.initConfig({
         vars: {
             srcPath: './',
@@ -33,6 +35,7 @@ module.exports = (grunt) => {
                 command: 'git log $(git describe --tags --abbrev=0)..HEAD --format="* %s (%h) by %aN;" --no-merges',
                 options: {
                     stdout: false,
+                    // @ts-ignore
                     callback: function (err, stdout, stderr, cb) {
                         grunt.option('history', stdout);
                         cb();
@@ -67,6 +70,7 @@ module.exports = (grunt) => {
 
         var changelog = grunt.file.read(changelogPath);
         if (changelog.match(regex)) {
+            // @ts-ignore
             changelog = changelog.replace(regex, function(match, p1, p2, offset, string, groups) {
                 return [
                     groups.title,
@@ -88,6 +92,7 @@ module.exports = (grunt) => {
         var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
         var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
         var dateTime = date + ' ' + time;
+        // @ts-ignore
         grunt.log.ok(dateTime['green']);
     });
 

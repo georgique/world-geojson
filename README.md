@@ -41,12 +41,19 @@ JSON files can be read from the directory in which the package was downloaded.
 Node.js applications can use the provided helper functions to synchronously load the JSON as a JavaScript object.
 
 ```javascript
-const geoJson = require('world-geojson') // or `import geoJson from 'world-geojson'`
+const geoJson = require('world-geojson') // or `import * as geoJson from 'world-geojson'`
 
-geoJson.forCountry('Antigua & Barbuda') // returns the contents of /countries/antigua_and_barbuda.json
-geoJson.forState('Australia', 'New South Wales') // returns the contents of /states/australia/new_south_wales.json
+geoJson.forCountry('Antigua & Barbuda'); // returns the contents of /countries/antigua_and_barbuda.json
+geoJson.forState('Australia', 'New South Wales'); // returns the contents of /states/australia/new_south_wales.json
 geoJson.forArea('U.S.A.', 'U.S. Virgin Islands'); // returns the contents of /areas/usa/us_virgin_islands.json
-geoJson.forCountry('abcd') // returns `null`
+
+// Combine multiple GeoJSONs into one
+const combined = geoJson.combineGeoJson([
+  {countryName: 'Antigua & Barbuda'},
+  {countryName: 'Australia', stateName: 'New South Wales'}, 
+  {countryName: 'U.S.A.', areaName: 'U.S. Virgin Islands'} 
+]);
+
 ```
 
 ## Countries (release 1.0)

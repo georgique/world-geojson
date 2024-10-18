@@ -3,10 +3,10 @@
   "description": "GeoJson for all the countries, areas (regions) and some states.",
   "license": "GPL-3.0-or-later",
   "repository": "git://github.com/georgique/world-geojson.git",
-  "version": "3.1.0",
-  "main": "index.js",
+  "version": "3.1.1",
+  "main": "index.ts",
   "files": [
-    "index.js",
+    "index.ts",
     "areas",
     "countries",
     "states",
@@ -16,6 +16,8 @@
     "LICENSE"
   ],
   "devDependencies": {
+    "@babel/plugin-syntax-flow": "^7.22.5",
+    "@babel/preset-flow": "^7.22.15",
     "grunt": "~1.5.3",
     "grunt-contrib-copy": "~1.0.0",
     "grunt-shell": "~4.0.0"
