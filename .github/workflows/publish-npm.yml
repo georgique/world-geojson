@@ -6,35 +6,18 @@ on:
       - '*'
 
 jobs:
-  build:
+  publish:
+    name: Build and publish
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set tag
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-          registry-url: 'https://registry.npmjs.org'
-
-      - name: Get npm cache directory
-        id: npm-cache-dir
-        shell: bash
-        run: echo "dir=$(npm config get cache)" >> ${GITHUB_OUTPUT}
-
-      - uses: actions/cache@v4
-        id: npm-cache
-        with:
-          path: ${{ steps.npm-cache-dir.outputs.dir }}
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: Install NPM dependencies
-        if: steps.npm-cache.outputs.cache-hit != 'true'
         run: npm install
 
       - name: Build
