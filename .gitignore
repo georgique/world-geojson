@@ -4,3 +4,5 @@ dist
 node_modules
 vendor
 .DS_Store
+.npmrc
+auth.json
