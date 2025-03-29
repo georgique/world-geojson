@@ -56,14 +56,16 @@ const combined = geoJson.combineGeoJson([
 
 ```
 
-## Countries (release 1.0)
+## What's included
+
+#### Countries (v1)
 
 Contries boundaries besides mainlands include all the geographically separated, but de jure dependent, associated and
 managed territories. Separated mainland and all the territories mentioned are added in release 2. Countries states are
 to be added in release 3.
 More about countries boundaries release [here](http://www.httphobo.com/all/world-geojson-release-1-0-0/).
 
-## Additional areas (release 2.0)
+#### Additional areas (v2)
 
 Besides bigger countries which are to be splitted into states, some smaller are also worth to be splitted into
 geographical areas.
@@ -92,7 +94,7 @@ Countries split into areas are:
   Virgin Islands/American Samoa/Baker Island/Howland Island/Jarvis Island/Johnston Atoll/Kingman Reef/Wake Island/Midway
   Atoll/Navassa Island/Serranilla Bank/Bajo Nuevo Bank
 
-## Aligned borders for all the countries (release 3.0 - published)
+#### Aligned borders for all the countries (v3.0) and Australian states (v3.1)
 
 This release is about gluing borders between all the countries so they perfectly align.
 Was / Is:
@@ -101,20 +103,24 @@ Was / Is:
 
 Also, NPM this package can now be installed via [NPM](https://www.npmjs.com/package/world-geojson)
 
-## Aligned borders for the Australian states (release 3.1 - published)
-
-## Added region boundaries for Thailand and Switzerland (release 3.2 - published)
+#### Added region boundaries for Thailand and Switzerland (v3.2)
 
 Note that those region boundaries are not aligned with the country borders.
 
-## Planned: aligned and better quality state borders for CA and USA (release 3.3)
+## What's planned
+
+There is no ongoing work right now and no commitment to have this ready within
+a certain timeframe, so these shouldn't be counted on, but this is the plan in 
+general.
+
+#### Aligned and better quality state borders for CA and USA (v3.3)
 
 * Better Canadian province borders
 * Glued borders for Canadian provinces
 * Better USA state borders
 * Glued borders for USA states
 
-## States boundaries (release 4.0)
+#### States boundaries (v4.0)
 
 Countries which we are going to provide state boundaries for:
 
