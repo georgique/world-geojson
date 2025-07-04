@@ -107,13 +107,17 @@ Also, NPM this package can now be installed via [NPM](https://www.npmjs.com/pack
 
 Note that those region boundaries are not aligned with the country borders.
 
+#### Added Taiwan (v3.3)
+
+Enough said. It was missing, not it is not.
+
 ## What's planned
 
 There is no ongoing work right now and no commitment to have this ready within
 a certain timeframe, so these shouldn't be counted on, but this is the plan in 
 general.
 
-#### Aligned and better quality state borders for CA and USA (v3.3)
+#### Aligned and better quality state borders for CA and USA (v3.4)
 
 * Better Canadian province borders
 * Glued borders for Canadian provinces
