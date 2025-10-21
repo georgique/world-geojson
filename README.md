@@ -111,13 +111,17 @@ Note that those region boundaries are not aligned with the country borders.
 
 Enough said. It was missing, not it is not.
 
+#### Added India states (v3.4)
+
+Quality is unknown.
+
 ## What's planned
 
 There is no ongoing work right now and no commitment to have this ready within
 a certain timeframe, so these shouldn't be counted on, but this is the plan in 
 general.
 
-#### Aligned and better quality state borders for CA and USA (v3.4)
+#### Aligned and better quality state borders for CA and USA (v3.5)
 
 * Better Canadian province borders
 * Glued borders for Canadian provinces
