@@ -109,11 +109,18 @@ Note that those region boundaries are not aligned with the country borders.
 
 #### Added Taiwan (v3.3)
 
-Enough said. It was missing, not it is not.
+Enough said. It was missing, now it is not.
 
 #### Added India states (v3.4)
 
 Quality is unknown.
+
+#### Taiwan missing islands and minor fixes (v3.5)
+
+* Fixed Taiwan border overlay
+* Added Taiwan missing islands
+* Fixed self-intersection in Democratic Congo
+
 
 ## What's planned
 
