@@ -18,6 +18,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+
+      - name: Update npm
+        run: npm install -g npm@latest
+
       - name: Set tag
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
@@ -30,4 +39,4 @@ jobs:
       - name: Publish NPM package
         run: |
           npm pkg set version="${{ env.RELEASE_VERSION }}"
-          npm publish
+          npm publish --provenance
