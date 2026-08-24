@@ -128,7 +128,7 @@ There is no ongoing work right now and no commitment to have this ready within
 a certain timeframe, so these shouldn't be counted on, but this is the plan in 
 general.
 
-#### Aligned and better quality state borders for CA and USA (v3.5)
+#### Aligned and better quality state borders for CA and USA (v3.6)
 
 * Better Canadian province borders
 * Glued borders for Canadian provinces
